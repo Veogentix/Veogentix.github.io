@@ -1,0 +1,80 @@
+body {
+    font-family: "IF Kica Light"; 
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+	margin-bottom: 20%;
+}
+header {
+    background-color: #F5F5F5;
+    color: #7B68EE;
+    text-align: center;
+    padding: 1em 0;
+}
+a.button {
+	color: #7B68EE;
+	text-decoration: none;
+	user-select: none;
+} 
+
+.nav{
+	font-family: 'IF Kica Light', sans-serif;
+	margin-left: 55%;
+	width: 700px;
+	padding: 0 40px;
+}
+a.button1 {
+
+	color: black;
+	float: left;
+	margin-left: 80px;
+	width: 100px;
+	text-decoration: none;
+	user-select: none;
+} 
+a.button1:hover {  
+	color: #A9A9A9;
+}
+a.button1:active {  
+	filter: blur(2px);
+}
+.pop{
+	text-decoration: none;
+	
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 300px 300px ;
+	grid-column-gap: 100px;
+	grid-row-gap: 100px;
+	margin-top:80px;
+	justify-content: center
+}
+
+.f1>img{
+	width: 300px;
+	  border-radius: 10px;
+}
+
+
+.zxc{
+	font-family: 'Esqadero FF CY 4F', sans-serif;
+	text-align: right;
+	font-size: 16px;
+	color: black;
+	white-space: nowrap;
+}
+
+
+footer {
+	font-family: 'Esqadero FF CY 4F', sans-serif;
+    background-color: #0f0f0f;
+    color: #A9A9A9;
+    text-align: center;
+    padding: 0.2em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

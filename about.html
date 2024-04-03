@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link href="https://fonts.googleapis.com/css2?family=IF+Kica&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'AKONY', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            overflow-x: hidden; /* Для предотвращения горизонтального скролла */
+        }
+		a{
+		 font-family: 'Unbounded-Bold', sans-serif;
+		}
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: left;
+            margin-bottom: 20px;
+			color: #00498C;
+        }
+        .navigation {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .navigation a {
+            text-decoration: none; /* Убираем подчеркивание ссылок */
+            color: #000000; /* Цвет ссылок */
+            margin-right: 10px; /* Добавляем немного отступа между ссылками */
+        }
+        .about-me {
+		line-height: 2;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+		p{
+		font-family: 'Esqadero FF CY 4F', sans-serif;
+		}
+        .about-me img {
+            border-radius: 10px; 
+			width:1200px;
+            max-width: 100%; /* Изображение не будет выходить за пределы экрана */
+            height: auto;
+            float: right;
+			margin-bottom: 100px;
+        }
+        .green-box {
+            background-color: #d1ffb0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+			line-height: 2;
+        }
+        .stars-image {
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .work-with-me {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .service {
+            text-align: center;
+        }
+        .service img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+        
+        /* Медиа-запрос для адаптивного дизайна */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .about-me img {
+                margin: 0 auto 20px; /* Выравниваем изображение по центру и добавляем отступ снизу */
+				width: 4000px;
+            }
+            .about-me table {
+                width: 100%; /* Устанавливаем ширину таблицы на 100% */
+            }
+        }
+		
+		footer {
+			font-family: 'Esqadero FF CY 4F', sans-serif;
+			background-color: #A9A9A9;
+			color: black;
+			text-align: center;
+			padding: 0.2em 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Дороненков Кирилл Design</h1>
+        </div>
+        <div class="navigation">
+            <a href="about.html">обо мне</a>
+            <a href="port.html">портфолио</a>
+            <a href="call.html">контакты</a>
+        </div>
+        <div class="about-me">
+            <h2>Кто я</h2>
+                <p>Приветствую! Меня зовут Кирилл, и я - дизайнер, который стремится создавать уникальные и неповторимые дизайны в различных областях творчества. Для меня дизайн - это не просто работа, это страсть и способ самовыражения.<br><br>
+				Я увлечен искусством и креативным процессом. Мое вдохновение берет начало из разнообразных источников - от природы до современного искусства. Я верю, что даже в самых обыденных вещах можно найти красоту и вдохновение.<br><br>
+				Я люблю вызовы и всегда открыт новым сотрудничествам. Главное для меня - создавать дизайн, который будет отражать вашу уникальность и помогать вам достичь ваших целей.<br>
+				Если вам нужен дизайнер, который может воплотить любые ваши идеи в жизнь, я готов помочь. Давайте вместе создадим что-то по-настоящему впечатляющее!</p><br>
+                <img src="me.jpg" alt="Image">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Дороненков Кирилл</p>
+    </footer>
+</body>
+</html>

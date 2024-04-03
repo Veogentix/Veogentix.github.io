@@ -1,0 +1,75 @@
+body {
+    font-family: "AKONY"; 
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+
+}
+		a{
+		 font-family: 'Unbounded-Bold', sans-serif;
+		}
+        .container {
+            text-align: center;
+            margin-top: 50px; /* отступ от верхнего края */
+        }
+        .logo {
+            margin-bottom: 20px; /* отступ под логотипом */
+			font-size: 2.7rem;
+			color: #00498C;
+        }
+        .image img {
+            max-width: 100%;
+			width: 580px;
+			height: 400px;
+            height: auto;
+        }
+        .navigation {
+            margin-top: 20px; /* отступ над навигацией */
+			text-align: left;
+			margin-left: 190px;
+        }
+        .navigation a {
+            text-decoration: none;
+			font-size: 1.5rem;
+            color: #000000;
+            margin: 0 100px; /* отступ между ссылками */
+        }
+        @media screen and (max-width: 600px) {
+            /* стили для мобильных устройств */
+			.container {
+				text-align: center;
+				margin-top: 50px; /* отступ от верхнего края */
+			}
+			.logo {
+				margin-bottom: 20px; /* отступ под логотипом */
+				font-size: 2rem;
+				color: #00498C;
+			}
+			.image img {
+				max-width: 100%;
+				width: 350px;
+				height: 350px;
+				height: auto;
+			}
+			.navigation {
+				margin-top: 20px; /* отступ над навигацией */
+				text-align: left;
+			}
+			.navigation a {
+				text-decoration: none;
+				font-size: 1.5rem;
+				color: #000000;
+				margin: 0 10px; /* отступ между ссылками */
+				margin-bottom: 50px;
+			}
+        }
+footer {
+	font-family: 'Esqadero FF CY 4F', sans-serif;
+    background-color: #A9A9A9;
+    color: black;
+    text-align: center;
+    padding: 0.2em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

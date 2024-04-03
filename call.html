@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=IF+Kica&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'AKONY', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            overflow-x: hidden; /* Для предотвращения горизонтального скролла */
+        }
+		a{
+		 font-family: 'Esqadero FF CY 4F', sans-serif;
+		}
+		p{
+		 font-family: 'Esqadero FF CY 4F', sans-serif;
+		}	
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: left;
+            margin-bottom: 20px;
+			color: #00498C;
+        }
+        .navigation {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .navigation a {
+            text-decoration: none; /* Убираем подчеркивание ссылок */
+            color: #000000; /* Цвет ссылок */
+            margin-right: 10px; /* Добавляем немного отступа между ссылками */
+        }
+        .footer {
+            font-family: 'Esqadero FF CY 4F', sans-serif;
+            background-color: #A9A9A9;
+            color: black;
+            text-align: center;
+            padding: 0.2em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .form-container {
+            background-color: #D3D3D3;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-details {
+            margin-right: 20px;
+            text-align: center;
+        }
+        .form-inputs {
+            flex: 1;
+        }
+        .input-container {
+            margin-bottom: 15px;
+        }
+        .input-container label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            
+        }
+        .input-container input {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .input-container input[type="submit"] {
+            width: 150px; /* Задаем фиксированную ширину кнопки */
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .input-container input[type="submit"]:hover {
+            background-color: #7B68EE;
+        }
+        .vertical-line {
+            border-left: 2px solid #ccc;
+            height: 100%; 
+            margin-left: 20px; 
+            margin-right: 20px; 
+        }
+
+        /* Media query для мобильных устройств */
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .form-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .form-details, .vertical-line {
+                display: none;
+            }
+            .form-inputs {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Дороненков Кирилл Design</h1>
+        <div class="navigation">
+            <a href="about.html">обо мне</a>
+            <a href="port.html">портфолио</a>
+            <a href="call.html">контакты</a>
+        </div>
+
+        <div class="form-container">
+            <div class="form-inputs">
+                <h2>Отправьте мне сообщение</h2>
+                <p>Если у вас есть какие-то вопросы или предложения по сотрудничеству - заполните форму ниже</p>
+                <div class="input-container">
+                    <label for="name">Имя (только кириллица)</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Номер телефона</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="input-container">
+                    <input type="submit" value="Отправить">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Дороненков Кирилл</p>
+    </footer>
+</body>
+</html>
